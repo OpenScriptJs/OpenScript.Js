@@ -1,0 +1,9 @@
+{
+    "dir": {
+        "components": "./js/components",
+        "mediators": "./js/mediators",
+        "contexts": "./js/contexts"
+    },
+    "output_file": "consolidated-ojs.js",
+    "output_dir": "./js/app"
+}
