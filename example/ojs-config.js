@@ -133,7 +133,7 @@ broker.removeStaleEvents();
  | in the console as they are fired
  |------------------------------------------
 */
-if(/^(127\.0\.0\.1|localhost)$/.test(route.url().hostname)) {
+if(/^(127\.0\.0\.1|localhost|.*\.test)$/.test(route.url().hostname)) {
     broker.withLogs(true);
 }
  
