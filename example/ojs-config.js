@@ -146,3 +146,11 @@ if(/^(127\.0\.0\.1|localhost|.*\.test)$/.test(route.url().hostname)) {
  * ---------------------------------------------
  */
 broker.requireEventsRegistration(true);
+
+/**
+ * ---------------------------------------------
+ * Initialize the router if you need it to run.
+ * ---------------------------------------------
+ * 
+ */
+//router.init();
