@@ -97,33 +97,12 @@ var OpenScript = {
         path = "";
 
         /**
-         * Create a route action
-         */
-        RouteAction = class RouteAction {
-            action;
-            name;
-
-            middleware = () => true;
-
-            children = new Map();
-
-            run() {
-                return this.action();
-            }
-        };
-
-        /**
          * Default Action
          * @type {function}
          */
         defaultAction = () => {
             alert("404 File Not Found");
         };
-
-        /**
-         *
-         */
-        constructor() {}
 
         /**
          * Initializes the router for
@@ -537,8 +516,6 @@ var OpenScript = {
                 return this.router;
             }
         };
-
-        GroupedRoute = class GroupedRoute {};
     },
 
     /**
