@@ -78,6 +78,7 @@ bc.counter.listener((state) => {
 		console.log(`Hello ${state.value}, you are a multiple of 10`);
 	}
 });
+
 bc.counter.listener((state) => {
 	if (state.value % 20 == 0) {
 		console.log(`Hello ${state.value}, you are a multiple of 20`);
