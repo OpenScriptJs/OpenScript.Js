@@ -2,7 +2,7 @@
  * The OpenScript Namespace
  * @namespace {OpenScript}
  */
-var OpenScript = {
+let OpenScript = {
     /**
      * Used to Run Classes upon creation
      */
@@ -2406,7 +2406,7 @@ var OpenScript = {
          * Refreshes the whole context
          */
         refresh() {
-            this.map.clear;
+            this.map.clear();
         }
     },
 

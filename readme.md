@@ -1055,6 +1055,8 @@ function Clock(...args) {
 > You can even return a full `OSM` from the `v` function.
 
 ##### Component Events
+During it's lifecycle, components emit events. You can listen to these events internally or from another component. Below are the events:
+
 ###### Listening to Internal Events
 ###### Listening to Other Components' Events
 ###### Late Reaction
