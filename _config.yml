@@ -1,0 +1,39 @@
+# _config.yml
+
+# Site settings
+title: OpenScriptJs
+description: A frontend framework for developing and Managing Reactive UIs in an elegant and easy way using normal non-module base JavaScript. That is, you can run this just like every other browser script.
+baseurl: "/OpenScript.Js"
+url: "https://OpenScriptJs.github.io"
+
+# Author details
+author: 
+  name: Levi Kamara Zwannah
+  email: levizwannah@gmail.com
+
+# Theme setup
+theme: jekyll-theme-cayman
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+# Features
+markdown: kramdown
+highlighter: rouge
+
+# SEO settings
+seo:
+  title: "OpenScriptJs"
+  description: "A frontend framework for developing and Managing Reactive UIs in an elegant and easy way using normal non-module base JavaScript. That is, you can run this just like every other browser script."
+
+# Footer
+footer:
+  message: "Developed by Levi Kamara Zwannah"
+  powered_by: "Powered by GitHub Pages"
+  links:
+    - title: "GitHub"
+      url: "https://github.com/OpenScriptJs/OpenScript.Js"
