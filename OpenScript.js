@@ -1172,8 +1172,8 @@ let OpenScript = {
         static parse(eventData) {
             let ed = OpenScript.EventData.decode(eventData);
 
-            if (!"_meta" in ed) ed._meta = {};
-            if (!"_message" in ed) ed._message = {};
+            if (!("_meta" in ed)) ed._meta = {};
+            if (!("_message" in ed)) ed._message = {};
 
             return {
                 meta: {
