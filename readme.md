@@ -664,7 +664,7 @@ You most likely want to use functional components when you have pure rendering t
 ##### Grouping Components
 You can group components by declaring them in the same file. Both functional and class-based components can be declared in the same file. When the file is loaded, all the components in that file are registered, mounted, and bound.
 
-```js
+```javascript
 // Main.js
 class App extends OpenScript.Component {...}
 
@@ -681,7 +681,7 @@ function Header() {...}
 ##### Loading the Component
 The components are in different files, therefore, they must be loaded and registered before rendering. To load a file that contains component declarations, ensure that you have set the components path in your `ojs-config` file. Then use the below code in the file you want to load the component in.
 
-```js
+```javascript
 // folder structure
 |-components
     |-Blog

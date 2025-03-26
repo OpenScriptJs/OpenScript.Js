@@ -4320,6 +4320,7 @@ const {
     payload,
 } = new OpenScript.Initializer();
 
+window.OpenScript = OpenScript;
 const OJS = OpenScript;
 
 /**
